@@ -1,8 +1,11 @@
-function changeHeading()
+function changeHeading(ev)
 {
-    const heading = document.querySelector('h1')
-    heading.textContext = 'Ye Olde Person Stats'
+    //debugger
+    ev.target.textContent = 'Clickity click'
 }
 
 const btn = document.querySelector('button')
-btn.addEventListener('click', changeHeading())
+btn.addEventListener('click', changeHeading)
+
+const p = document.querySelector('p#instructions')
+p.addEventListener('click', changeHeading)
