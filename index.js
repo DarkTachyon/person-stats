@@ -8,8 +8,9 @@ function changeHeading(ev, er)
     //debugger
     const div = document.querySelector('div#stats')
     const paraDiv = document.querySelector('#div-para')
+    //can be done with document.querySelector(#stats p or #stats > p)
     //div.textContent = name
-    paraDiv.textContent = name + ' ' + some
+    paraDiv.textContent = `${name} ${some}`
     //debugger
     paraDiv.style.color = color
 }
