@@ -39,15 +39,17 @@ function renderList(name, age, color)
 function choose()
 {
     const heyyey = "https://www.youtube.com/embed/ZZ5LpwO-An4?autoplay=1"
-    const kazoo = "https://www.youtube.com/embed/g-sgw9bPV4A"
-    const cooking = "https://www.youtube.com/embed/K5tVbVu9Mkg?autoplay=1"
+    const kazoo = "https://www.youtube.com/embed/g-sgw9bPV4A?autoplay=1"
+    //const cooking = "https://www.youtube.com/embed/K5tVbVu9Mkg?autoplay=1"
     const shootingStars = "https://www.youtube.com/embed/feA64wXhbjo?autoplay=1"
     const macintosh = "https://www.youtube.com/embed/cU8HrO7XuiE?autoplay=1"
     const reposted = "https://www.youtube.com/embed/4feUSTS21-8?autoplay=1"
-    const rickRoll = "https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1"
-    const gandalf = "https://www.youtube.com/embed/Sagg08DrO5U?autoplay=1"
-    const september = "https://www.youtube.com/embed/Gs069dndIYk?autoplay=1"
+    const dankEngine = "https://www.youtube.com/embed/ETfiUYij5UE?autoplay=1"
+    const sax = "https://www.youtube.com/embed/kxopViU98Xo?autoplay=1"
+    //const september = "https://www.youtube.com/embed/Gs069dndIYk?autoplay=1"
+    const wiiBling = "https://www.youtube.com/embed/gYOEyzBFYa4?autoplay=1"
     const running = "https://www.youtube.com/embed/BJ0xBCwkg3E?autoplay=1"
+    const troll = "https://www.youtube.com/embed/2Z4m4lnjxkY?autoplay=1"
     const random = Math.random() * 100
 
     if (random >= 0 && random < 9)
@@ -55,7 +57,7 @@ function choose()
     else if (random >= 10 && random < 20)
         return kazoo
     else if (random >= 20 && random < 30)
-        return cooking
+        return troll
     else if (random >= 30 && random < 40)
         return shootingStars
     else if (random >= 40 && random < 50)
@@ -65,9 +67,9 @@ function choose()
     else if (random >= 60 && random < 70)
         return rickRoll
     else if (random >= 70 && random < 80)
-        return gandalf
+        return sax
     else if (random >= 80 & random < 90)
-        return september
+        return wiiBling
     else
         return running
 }
@@ -81,7 +83,7 @@ function doStuff()
     thatFrame.src = somethingCool
 
     if (thatDiv.style.display === 'block')
-        thatDiv.style.display = 'none'
+        thatDiv.style.display = 'initial'
 }
 
 function handleSubmit(ev)
