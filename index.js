@@ -39,6 +39,7 @@ function renderList(name, age, color)
 function choose()
 {
     const heyyey = "https://www.youtube.com/embed/ZZ5LpwO-An4?autoplay=1"
+    const kazoo = "https://www.youtube.com/embed/g-sgw9bPV4A"
     const cooking = "https://www.youtube.com/embed/K5tVbVu9Mkg?autoplay=1"
     const shootingStars = "https://www.youtube.com/embed/feA64wXhbjo?autoplay=1"
     const macintosh = "https://www.youtube.com/embed/cU8HrO7XuiE?autoplay=1"
